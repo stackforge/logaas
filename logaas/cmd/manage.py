@@ -35,6 +35,7 @@ class DBCommands(object):
         db.db_drop()
         db.db_create()
 
+
 def main():
     categories = {'db': DBCommands}
     cliutils.run(sys.argv, categories)
