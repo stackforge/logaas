@@ -18,6 +18,7 @@ import mock
 from logaas.cmd import manage
 from tests import test
 
+
 class DBCommandsTestCase(test.TestCase):
 
     @mock.patch("logaas.cmd.manage.db")
