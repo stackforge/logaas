@@ -129,7 +129,7 @@ def run(argv, categories):
         if not CONF.get('log_config_append'):
             # The below two lines are to disable noise from request module. The
             # standard way should be we make such lots of settings on the root
-            # logaas. However current oslo codes doesn't support such interface.
+            # logaas. However current oslo code doesn't support such interface.
             # So I choose to use a 'hacking' way to avoid INFO logs from
             # request module where user didn't give specific log configuration.
             # And we could remove this hacking after oslo.log has such
