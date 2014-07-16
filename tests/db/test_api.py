@@ -15,9 +15,8 @@
 
 
 from logaas import db
-from tests import test
-
 from logaas.openstack.common.db import options as db_options
+from tests import test
 
 
 db_options.set_defaults(sql_connection='sqlite://', sqlite_db='logaas.sqlite')

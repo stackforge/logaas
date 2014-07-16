@@ -14,7 +14,6 @@
 #    under the License.
 
 import mock
-
 from oslotest import base
 
 from logaas import db

@@ -13,9 +13,9 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
+import sys
 
 from oslo.config import cfg
-import sys
 
 from logaas.openstack.common.gettextutils import _
 from logaas.openstack.common import log as logging
