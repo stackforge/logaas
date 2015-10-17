@@ -1,7 +1,0 @@
-[run]
-branch = True
-source = logaas
-omit = logaas/openstack/*
-
-[report]
-ignore-errors = True
